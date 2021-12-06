@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BANK_GURLU">
+              <span class="suite-name border-failed">BANK GURLU</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BANK_GURLU">
+                    <span>D:\workspace\pom_bankguru\src\test\resources\runBankGuruTestCase.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BANK_GURLU">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BANK_GURLU">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BANK_GURLU">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BANK_GURLU">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BANK_GURLU">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BANK_GURLU">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 4 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BANK_GURLU" class="hide-methods failed suite-BANK_GURLU"> (hide)</a> <!-- hide-methods failed suite-BANK_GURLU -->
+                      <a href="#" panel-name="suite-BANK_GURLU" class="show-methods failed suite-BANK_GURLU"> (show)</a> <!-- show-methods failed suite-BANK_GURLU -->
+                    </span>
+                    <div class="method-list-content failed suite-BANK_GURLU">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.DeleteAccount" hash-for-method="DA_01_verifyAccountNoFieldCannotBeEmpty">DA_01_verifyAccountNoFieldCannotBeEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.DeleteAccount" hash-for-method="DA_02_verifyAccountNoFieldMustBeNumberic">DA_02_verifyAccountNoFieldMustBeNumberic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.DeleteAccount" hash-for-method="DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace">DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.EditAccount" hash-for-method="EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace">EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BANK_GURLU -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BANK_GURLU" class="hide-methods passed suite-BANK_GURLU"> (hide)</a> <!-- hide-methods passed suite-BANK_GURLU -->
+                      <a href="#" panel-name="suite-BANK_GURLU" class="show-methods passed suite-BANK_GURLU"> (show)</a> <!-- show-methods passed suite-BANK_GURLU -->
+                    </span>
+                    <div class="method-list-content passed suite-BANK_GURLU">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.DeleteAccount" hash-for-method="DA_03_verifyAccountNoFieldCannotHaveSpecialCharater">DA_03_verifyAccountNoFieldCannotHaveSpecialCharater</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.DeleteAccount" hash-for-method="DA_04_verifyAccountNoFieldCannotHaveBlankSpace">DA_04_verifyAccountNoFieldCannotHaveBlankSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.EditAccount" hash-for-method="EA_01_verifyAccountNoFieldCannotBeEmpty">EA_01_verifyAccountNoFieldCannotBeEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.EditAccount" hash-for-method="EA_02_verifyAccountNoFieldMustBeNumberic">EA_02_verifyAccountNoFieldMustBeNumberic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.EditAccount" hash-for-method="EA_03_verifyAccountNoFieldCannotHaveSpecialCharater">EA_03_verifyAccountNoFieldCannotHaveSpecialCharater</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.EditAccount" hash-for-method="EA_04_verifyAccountNoFieldValidAccountNumber">EA_04_verifyAccountNoFieldValidAccountNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.EditAccount" hash-for-method="EA_05_verifyAccountNoFieldCannotHaveBlankSpace">EA_05_verifyAccountNoFieldCannotHaveBlankSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_01_verifyCustomerIDFieldCannotBeEmpty">NA_01_verifyCustomerIDFieldCannotBeEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_02_verifyCustomerIDFieldMustBeNumeric">NA_02_verifyCustomerIDFieldMustBeNumeric</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_03_verifyCustomerIDFieldCannotHaveSpecialCharacter">NA_03_verifyCustomerIDFieldCannotHaveSpecialCharacter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_04_verifyCustomerIDFieldCannotHaveBlackSpace">NA_04_verifyCustomerIDFieldCannotHaveBlackSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_05_verifyCustomerIDFieldFirstCharacterCannotBeSpace">NA_05_verifyCustomerIDFieldFirstCharacterCannotBeSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_06_verifyDepositFieldCannotBeEmpty">NA_06_verifyDepositFieldCannotBeEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_07_verifyDepositFieldMustBeNumeric">NA_07_verifyDepositFieldMustBeNumeric</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_08_verifyDepositFieldCannotHaveSpecialCharacter">NA_08_verifyDepositFieldCannotHaveSpecialCharacter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_09_verifyDepositFieldCannotHaveBlackSpace">NA_09_verifyDepositFieldCannotHaveBlackSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BANK_GURLU" title="com.bankguru.account.NewAccount" hash-for-method="NA_10_verifyDepositFieldFirstCharacterCannotBeSpace">NA_10_verifyDepositFieldFirstCharacterCannotBeSpace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BANK_GURLU -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BANK_GURLU" class="panel BANK_GURLU">
+          <div class="suite-BANK_GURLU-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bankguru.account.EditAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace">
+                  </a> <!-- EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace -->
+                  <span class="method-name">EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [First character can not have space] but found [Characters are not allowed]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:195)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:207)
+	at com.bankguru.account.EditAccount.EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace(EditAccount.java:142)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BANK_GURLU-class-failed -->
+          <div class="suite-BANK_GURLU-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bankguru.account.DeleteAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DA_01_verifyAccountNoFieldCannotBeEmpty">
+                  </a> <!-- DA_01_verifyAccountNoFieldCannotBeEmpty -->
+                  <span class="method-name">DA_01_verifyAccountNoFieldCannotBeEmpty</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Customer ID is required] but found [Account Number must not be blank]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:195)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:207)
+	at com.bankguru.account.DeleteAccount.DA_01_verifyAccountNoFieldCannotBeEmpty(DeleteAccount.java:51)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DA_02_verifyAccountNoFieldMustBeNumberic">
+                  </a> <!-- DA_02_verifyAccountNoFieldMustBeNumberic -->
+                  <span class="method-name">DA_02_verifyAccountNoFieldMustBeNumberic</span>
+                  <div class="stack-trace">java.lang.Throwable: Multiple failures (2):
+Failure 1 of 2
+java.lang.AssertionError: expected [Account Number must not be blank] but found [Characters are not allowed]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:195)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:207)
+	at com.bankguru.account.DeleteAccount.DA_02_verifyAccountNoFieldMustBeNumberic(DeleteAccount.java:65)
+
+Failure 2 of 2
+java.lang.AssertionError: expected [Account Number must not be blank] but found [Characters are not allowed]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:195)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:207)
+	at com.bankguru.account.DeleteAccount.DA_02_verifyAccountNoFieldMustBeNumberic(DeleteAccount.java:72)
+... Removed 60 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace">
+                  </a> <!-- DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace -->
+                  <span class="method-name">DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [First character can not have space] but found [Characters are not allowed]
+	at commons.AbstractTest.checkEquals(AbstractTest.java:195)
+	at commons.AbstractTest.verifyEquals(AbstractTest.java:207)
+	at com.bankguru.account.DeleteAccount.DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace(DeleteAccount.java:126)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BANK_GURLU-class-failed -->
+          <div class="suite-BANK_GURLU-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankguru.account.EditAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EA_01_verifyAccountNoFieldCannotBeEmpty">
+                  </a> <!-- EA_01_verifyAccountNoFieldCannotBeEmpty -->
+                  <span class="method-name">EA_01_verifyAccountNoFieldCannotBeEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EA_02_verifyAccountNoFieldMustBeNumberic">
+                  </a> <!-- EA_02_verifyAccountNoFieldMustBeNumberic -->
+                  <span class="method-name">EA_02_verifyAccountNoFieldMustBeNumberic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EA_03_verifyAccountNoFieldCannotHaveSpecialCharater">
+                  </a> <!-- EA_03_verifyAccountNoFieldCannotHaveSpecialCharater -->
+                  <span class="method-name">EA_03_verifyAccountNoFieldCannotHaveSpecialCharater</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EA_04_verifyAccountNoFieldValidAccountNumber">
+                  </a> <!-- EA_04_verifyAccountNoFieldValidAccountNumber -->
+                  <span class="method-name">EA_04_verifyAccountNoFieldValidAccountNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EA_05_verifyAccountNoFieldCannotHaveBlankSpace">
+                  </a> <!-- EA_05_verifyAccountNoFieldCannotHaveBlankSpace -->
+                  <span class="method-name">EA_05_verifyAccountNoFieldCannotHaveBlankSpace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BANK_GURLU-class-passed -->
+          <div class="suite-BANK_GURLU-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankguru.account.DeleteAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DA_03_verifyAccountNoFieldCannotHaveSpecialCharater">
+                  </a> <!-- DA_03_verifyAccountNoFieldCannotHaveSpecialCharater -->
+                  <span class="method-name">DA_03_verifyAccountNoFieldCannotHaveSpecialCharater</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DA_04_verifyAccountNoFieldCannotHaveBlankSpace">
+                  </a> <!-- DA_04_verifyAccountNoFieldCannotHaveBlankSpace -->
+                  <span class="method-name">DA_04_verifyAccountNoFieldCannotHaveBlankSpace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BANK_GURLU-class-passed -->
+          <div class="suite-BANK_GURLU-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankguru.account.NewAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_01_verifyCustomerIDFieldCannotBeEmpty">
+                  </a> <!-- NA_01_verifyCustomerIDFieldCannotBeEmpty -->
+                  <span class="method-name">NA_01_verifyCustomerIDFieldCannotBeEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_02_verifyCustomerIDFieldMustBeNumeric">
+                  </a> <!-- NA_02_verifyCustomerIDFieldMustBeNumeric -->
+                  <span class="method-name">NA_02_verifyCustomerIDFieldMustBeNumeric</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_03_verifyCustomerIDFieldCannotHaveSpecialCharacter">
+                  </a> <!-- NA_03_verifyCustomerIDFieldCannotHaveSpecialCharacter -->
+                  <span class="method-name">NA_03_verifyCustomerIDFieldCannotHaveSpecialCharacter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_04_verifyCustomerIDFieldCannotHaveBlackSpace">
+                  </a> <!-- NA_04_verifyCustomerIDFieldCannotHaveBlackSpace -->
+                  <span class="method-name">NA_04_verifyCustomerIDFieldCannotHaveBlackSpace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_05_verifyCustomerIDFieldFirstCharacterCannotBeSpace">
+                  </a> <!-- NA_05_verifyCustomerIDFieldFirstCharacterCannotBeSpace -->
+                  <span class="method-name">NA_05_verifyCustomerIDFieldFirstCharacterCannotBeSpace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_06_verifyDepositFieldCannotBeEmpty">
+                  </a> <!-- NA_06_verifyDepositFieldCannotBeEmpty -->
+                  <span class="method-name">NA_06_verifyDepositFieldCannotBeEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_07_verifyDepositFieldMustBeNumeric">
+                  </a> <!-- NA_07_verifyDepositFieldMustBeNumeric -->
+                  <span class="method-name">NA_07_verifyDepositFieldMustBeNumeric</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_08_verifyDepositFieldCannotHaveSpecialCharacter">
+                  </a> <!-- NA_08_verifyDepositFieldCannotHaveSpecialCharacter -->
+                  <span class="method-name">NA_08_verifyDepositFieldCannotHaveSpecialCharacter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_09_verifyDepositFieldCannotHaveBlackSpace">
+                  </a> <!-- NA_09_verifyDepositFieldCannotHaveBlackSpace -->
+                  <span class="method-name">NA_09_verifyDepositFieldCannotHaveBlackSpace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NA_10_verifyDepositFieldFirstCharacterCannotBeSpace">
+                  </a> <!-- NA_10_verifyDepositFieldFirstCharacterCannotBeSpace -->
+                  <span class="method-name">NA_10_verifyDepositFieldFirstCharacterCannotBeSpace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BANK_GURLU-class-passed -->
+        </div> <!-- panel BANK_GURLU -->
+        <div panel-name="test-xml-BANK_GURLU" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\workspace\pom_bankguru\src\test\resources\runBankGuruTestCase.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BANK GURLU&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Run&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome_ui&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://demo.guru99.com/v4/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankguru.account.NewAccount&quot;/&gt;
+      &lt;class name=&quot;com.bankguru.account.EditAccount&quot;/&gt;
+      &lt;class name=&quot;com.bankguru.account.DeleteAccount&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run --&gt;
+&lt;/suite&gt; &lt;!-- BANK GURLU --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BANK_GURLU" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BANK GURLU</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BANK_GURLU" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BANK GURLU</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BANK_GURLU" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BANK GURLU</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BANK_GURLU');
+function tableData_BANK_GURLU() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EA_04_verifyAccountNoFieldValidAccountNumber')
+data.setCell(0, 2, 'com.bankguru.account.EditAccount')
+data.setCell(0, 3, 2860);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EA_01_verifyAccountNoFieldCannotBeEmpty')
+data.setCell(1, 2, 'com.bankguru.account.EditAccount')
+data.setCell(1, 3, 1262);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DA_01_verifyAccountNoFieldCannotBeEmpty')
+data.setCell(2, 2, 'com.bankguru.account.DeleteAccount')
+data.setCell(2, 3, 988);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EA_03_verifyAccountNoFieldCannotHaveSpecialCharater')
+data.setCell(3, 2, 'com.bankguru.account.EditAccount')
+data.setCell(3, 3, 919);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'EA_02_verifyAccountNoFieldMustBeNumberic')
+data.setCell(4, 2, 'com.bankguru.account.EditAccount')
+data.setCell(4, 3, 914);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'EA_05_verifyAccountNoFieldCannotHaveBlankSpace')
+data.setCell(5, 2, 'com.bankguru.account.EditAccount')
+data.setCell(5, 3, 832);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace')
+data.setCell(6, 2, 'com.bankguru.account.EditAccount')
+data.setCell(6, 3, 820);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'NA_01_verifyCustomerIDFieldCannotBeEmpty')
+data.setCell(7, 2, 'com.bankguru.account.NewAccount')
+data.setCell(7, 3, 800);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DA_03_verifyAccountNoFieldCannotHaveSpecialCharater')
+data.setCell(8, 2, 'com.bankguru.account.DeleteAccount')
+data.setCell(8, 3, 641);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DA_02_verifyAccountNoFieldMustBeNumberic')
+data.setCell(9, 2, 'com.bankguru.account.DeleteAccount')
+data.setCell(9, 3, 632);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace')
+data.setCell(10, 2, 'com.bankguru.account.DeleteAccount')
+data.setCell(10, 3, 545);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DA_04_verifyAccountNoFieldCannotHaveBlankSpace')
+data.setCell(11, 2, 'com.bankguru.account.DeleteAccount')
+data.setCell(11, 3, 527);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'NA_02_verifyCustomerIDFieldMustBeNumeric')
+data.setCell(12, 2, 'com.bankguru.account.NewAccount')
+data.setCell(12, 3, 402);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'NA_07_verifyDepositFieldMustBeNumeric')
+data.setCell(13, 2, 'com.bankguru.account.NewAccount')
+data.setCell(13, 3, 399);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'NA_03_verifyCustomerIDFieldCannotHaveSpecialCharacter')
+data.setCell(14, 2, 'com.bankguru.account.NewAccount')
+data.setCell(14, 3, 380);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'NA_08_verifyDepositFieldCannotHaveSpecialCharacter')
+data.setCell(15, 2, 'com.bankguru.account.NewAccount')
+data.setCell(15, 3, 374);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'NA_06_verifyDepositFieldCannotBeEmpty')
+data.setCell(16, 2, 'com.bankguru.account.NewAccount')
+data.setCell(16, 3, 355);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'NA_04_verifyCustomerIDFieldCannotHaveBlackSpace')
+data.setCell(17, 2, 'com.bankguru.account.NewAccount')
+data.setCell(17, 3, 313);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'NA_05_verifyCustomerIDFieldFirstCharacterCannotBeSpace')
+data.setCell(18, 2, 'com.bankguru.account.NewAccount')
+data.setCell(18, 3, 289);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'NA_10_verifyDepositFieldFirstCharacterCannotBeSpace')
+data.setCell(19, 2, 'com.bankguru.account.NewAccount')
+data.setCell(19, 3, 272);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'NA_09_verifyDepositFieldCannotHaveBlackSpace')
+data.setCell(20, 2, 'com.bankguru.account.NewAccount')
+data.setCell(20, 3, 271);
+window.suiteTableData['BANK_GURLU']= { tableData: data, tableDiv: 'times-div-BANK_GURLU'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-BANK_GURLU">
+              </div> <!-- times-div-BANK_GURLU -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BANK_GURLU" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BANK GURLU</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EA_05_verifyAccountNoFieldCannotHaveBlankSpace</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:55,404] AccountNoFieldCannotHaveBlankSpace - step 01: Click Edit Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:56,126] AccountNoFieldCannotHaveBlankSpace - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:56,199] AccountNoFieldCannotHaveBlankSpace - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:56,235]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EA_03_verifyAccountNoFieldCannotHaveSpecialCharater</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:51,623] AccountNoFieldCannotHaveSpecialCharater - step 01: Click Edit Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:52,326] AccountNoFieldCannotHaveSpecialCharater - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:52,409] AccountNoFieldCannotHaveSpecialCharater - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:52,442]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:52,442] AccountNoFieldCannotHaveSpecialCharater - step 04: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:52,510] AccountNoFieldCannotHaveSpecialCharater - step 05: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:52,541]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EA_02_verifyAccountNoFieldMustBeNumberic</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:50,707] AccountNoFieldMustBeNumberic - step 01: Click Edit Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:51,418] AccountNoFieldMustBeNumberic - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:51,499] AccountNoFieldMustBeNumberic - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:51,530]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:51,530] AccountNoFieldMustBeNumberic - step 04: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:51,593] AccountNoFieldMustBeNumberic - step 05: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:51,620]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_07_verifyDepositFieldMustBeNumeric</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,039] DepositFieldMustBeNumeric - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,227] DepositFieldMustBeNumeric - step 02: focus out deposit textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,310] DepositFieldMustBeNumeric - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,346]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,346] DepositFieldMustBeNumeric - step 04: focus out deposit textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,409] DepositFieldMustBeNumeric - step 05: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,437]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_03_verifyCustomerIDFieldCannotHaveSpecialCharacter</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,697] CustomerIDFieldCannotHaveSpecialCharacter - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,859] CustomerIDFieldCannotHaveSpecialCharacter - step 02: focus out customer id textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,949] CustomerIDFieldCannotHaveSpecialCharacter - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,984]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,984] CustomerIDFieldCannotHaveSpecialCharacter - step 04: focus out customer id textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,043] CustomerIDFieldCannotHaveSpecialCharacter - step 05: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,075]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EA_01_verifyAccountNoFieldCannotBeEmpty</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:49,444] AccountNoFieldCannotBeEmpty - step 01: Click Edit Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:50,509] AccountNoFieldCannotBeEmpty - step 02: focus out account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:50,667] AccountNoFieldCannotBeEmpty - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:50,704]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DA_04_verifyAccountNoFieldCannotHaveBlankSpace</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,712] AccountNoFieldCannotHaveBlankSpace - step 01: Click Delete Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:10,134] AccountNoFieldCannotHaveBlankSpace - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:10,208] AccountNoFieldCannotHaveBlankSpace - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:10,238]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_10_verifyDepositFieldFirstCharacterCannotBeSpace</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:39,087] DepositFieldFirstCharacterCannotBeSpace - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:39,246] DepositFieldFirstCharacterCannotBeSpace - step 02: focus out deposit textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:39,324] DepositFieldFirstCharacterCannotBeSpace - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:39,358]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_01_verifyCustomerIDFieldCannotBeEmpty</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:35,445] CustomerIDFieldCannotBeEmpty - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:35,994] CustomerIDFieldCannotBeEmpty - step 02: focus out customer id textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,167] CustomerIDFieldCannotBeEmpty - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,205]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_02_verifyCustomerIDFieldMustBeNumeric</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,293] CustomerIDFieldMustBeNumeric - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,470] CustomerIDFieldMustBeNumeric - step 02: focus out customer id textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,556] CustomerIDFieldMustBeNumeric - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,590]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,591] CustomerIDFieldMustBeNumeric - step 04: focus out customer id textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,661] CustomerIDFieldMustBeNumeric - step 05: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:36,693]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_05_verifyCustomerIDFieldFirstCharacterCannotBeSpace</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,393] CustomerIDFieldCannotHaveBlackSpace - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,570] CustomerIDFieldCannotHaveBlackSpace - step 02: focus out customer id textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,647] CustomerIDFieldCannotHaveBlackSpace - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,681]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_08_verifyDepositFieldCannotHaveSpecialCharacter</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,440] DepositFieldCannotHaveSpecialCharacter - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,601] DepositFieldCannotHaveSpecialCharacter - step 02: focus out deposit textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,684] DepositFieldCannotHaveSpecialCharacter - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,721]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,721] DepositFieldCannotHaveSpecialCharacter - step 04: focus out deposit textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,785] DepositFieldCannotHaveSpecialCharacter - step 05: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,813]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DA_03_verifyAccountNoFieldCannotHaveSpecialCharater</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,070] AccountNoFieldCannotHaveSpecialCharater - step 01: Click Delete Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,504] AccountNoFieldCannotHaveSpecialCharater - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,585] AccountNoFieldCannotHaveSpecialCharater - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,617]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,617] AccountNoFieldCannotHaveSpecialCharater - step 04: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,681] AccountNoFieldCannotHaveSpecialCharater - step 05: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,710]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_09_verifyDepositFieldCannotHaveBlackSpace</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,815] DepositFieldCannotHaveBlackSpace - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,974] DepositFieldCannotHaveBlackSpace - step 02: focus out customer id textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:39,052] DepositFieldCannotHaveBlackSpace - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:39,085]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_04_verifyCustomerIDFieldCannotHaveBlackSpace</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,079] CustomerIDFieldCannotHaveBlackSpace - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,279] CustomerIDFieldCannotHaveBlackSpace - step 02: focus out customer id textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,358] CustomerIDFieldCannotHaveBlackSpace - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,390]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EA_04_verifyAccountNoFieldValidAccountNumber</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:52,544] AccountNoFieldValidAccountNumber - step 01: Click Edit Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:53,237] AccountNoFieldValidAccountNumber - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:53,332] AccountNoFieldValidAccountNumber - step 03: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:55,359] AccountNoFieldValidAccountNumber - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:55,402]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NA_06_verifyDepositFieldCannotBeEmpty</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,684] DepositFieldCannotBeEmpty - step 01: Click New Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,843] DepositFieldCannotBeEmpty - step 02: focus out deposit textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:37,993] DepositFieldCannotBeEmpty - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:38,037]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:56,237] AccountNoFieldFirstCharacerCannotHaveSpace - step 01: Click Edit Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:56,938] AccountNoFieldFirstCharacerCannotHaveSpace - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:57,021] AccountNoFieldFirstCharacerCannotHaveSpace - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:48:57,056]  -------------------------- FAILED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DA_02_verifyAccountNoFieldMustBeNumberic</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:08,435] AccountNoFieldMustBeNumberic - step 01: Click Delete Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:08,862] AccountNoFieldMustBeNumberic - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:08,943] AccountNoFieldMustBeNumberic - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:08,977]  -------------------------- FAILED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:08,977] AccountNoFieldMustBeNumberic - step 04: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,038] AccountNoFieldMustBeNumberic - step 05: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:09,065]  -------------------------- FAILED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DA_01_verifyAccountNoFieldCannotBeEmpty</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:07,446] AccountNoFieldCannotBeEmpty - step 01: Click Delete Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:08,251] AccountNoFieldCannotBeEmpty - step 02: focus out account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:08,396] AccountNoFieldCannotBeEmpty - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:08,433]  -------------------------- FAILED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:10,241] AccountNoFieldFirstCharacerCannotHaveSpace - step 01: Click Delete Account link
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:10,679] AccountNoFieldFirstCharacerCannotHaveSpace - step 02: input to account no textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:10,753] AccountNoFieldFirstCharacerCannotHaveSpace - step 03: Verify message
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-04 16:49:10,785]  -------------------------- FAILED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BANK_GURLU" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BANK_GURLU" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankguru.account.NewAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome_ui, http://demo.guru99.com/v4/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">NA_01_verifyCustomerIDFieldCannotBeEmpty</span>
+                <span class="method-start">10954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_02_verifyCustomerIDFieldMustBeNumeric</span>
+                <span class="method-start">11840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_03_verifyCustomerIDFieldCannotHaveSpecialCharacter</span>
+                <span class="method-start">12244 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_04_verifyCustomerIDFieldCannotHaveBlackSpace</span>
+                <span class="method-start">12626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_05_verifyCustomerIDFieldFirstCharacterCannotBeSpace</span>
+                <span class="method-start">12941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_06_verifyDepositFieldCannotBeEmpty</span>
+                <span class="method-start">13231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_07_verifyDepositFieldMustBeNumeric</span>
+                <span class="method-start">13587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_08_verifyDepositFieldCannotHaveSpecialCharacter</span>
+                <span class="method-start">13988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_09_verifyDepositFieldCannotHaveBlackSpace</span>
+                <span class="method-start">14363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NA_10_verifyDepositFieldFirstCharacterCannotBeSpace</span>
+                <span class="method-start">14635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">14908 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankguru.account.EditAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome_ui, http://demo.guru99.com/v4/)</span>
+                <span class="method-start">15596 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">EA_01_verifyAccountNoFieldCannotBeEmpty</span>
+                <span class="method-start">24991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EA_02_verifyAccountNoFieldMustBeNumberic</span>
+                <span class="method-start">26255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EA_03_verifyAccountNoFieldCannotHaveSpecialCharater</span>
+                <span class="method-start">27171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EA_04_verifyAccountNoFieldValidAccountNumber</span>
+                <span class="method-start">28091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EA_05_verifyAccountNoFieldCannotHaveBlankSpace</span>
+                <span class="method-start">30952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace</span>
+                <span class="method-start">31785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">32611 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankguru.account.DeleteAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome_ui, http://demo.guru99.com/v4/)</span>
+                <span class="method-start">33367 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DA_01_verifyAccountNoFieldCannotBeEmpty</span>
+                <span class="method-start">42994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DA_02_verifyAccountNoFieldMustBeNumberic</span>
+                <span class="method-start">43983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DA_03_verifyAccountNoFieldCannotHaveSpecialCharater</span>
+                <span class="method-start">44618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DA_04_verifyAccountNoFieldCannotHaveBlankSpace</span>
+                <span class="method-start">45260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace</span>
+                <span class="method-start">45789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">46335 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BANK GURLU" parallel="false">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentReportListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listen class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Run">
+		<parameter name="browser" value="chrome_ui" />
+		<parameter name="url" value="http://demo.guru99.com/v4/" />
+		<classes>
+			<class name="com.bankguru.account.NewAccount" />
+			<class name="com.bankguru.account.EditAccount" />
+			<class name="com.bankguru.account.DeleteAccount" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite --> 
+  

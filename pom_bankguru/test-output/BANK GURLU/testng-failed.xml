@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BANK GURLU]">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtentReportListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Run(failed)">
+    <parameter name="browser" value="chrome_ui"/>
+    <parameter name="url" value="http://demo.guru99.com/v4/"/>
+    <classes>
+      <class name="com.bankguru.account.EditAccount">
+        <methods>
+          <include name="EA_06_verifyAccountNoFieldFirstCharacerCannotHaveSpace"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.bankguru.account.EditAccount -->
+      <class name="com.bankguru.account.DeleteAccount">
+        <methods>
+          <include name="DA_01_verifyAccountNoFieldCannotBeEmpty"/>
+          <include name="afterClass"/>
+          <include name="DA_05_verifyAccountNoFieldFirstCharacerCannotHaveSpace"/>
+          <include name="beforeClass"/>
+          <include name="DA_02_verifyAccountNoFieldMustBeNumberic"/>
+        </methods>
+      </class> <!-- com.bankguru.account.DeleteAccount -->
+    </classes>
+  </test> <!-- Run(failed) -->
+</suite> <!-- Failed suite [BANK GURLU] -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.bankguru.customer.NewCustomer">
+        <methods>
+          <include name="NC_20_verifyPinFieldCannotHaveFirstBlankSpace"/>
+          <include name="NC_08_verifyCityFieldCannotBeEmpty"/>
+          <include name="NC_06_verifyAddressFieldCannotHaveFirstCharacterAsBlank"/>
+          <include name="NC_27_verifyEmailFieldMustBeInCorrectFormat"/>
+          <include name="NC_30_verifyAllFieldLabelsAreAsRequirement"/>
+          <include name="NC_02_verifyNameFieldCannotBeNumeric"/>
+          <include name="NC_26_verifyEmailFieldCannotBeEmpty"/>
+          <include name="afterTest"/>
+          <include name="NC_04_verifyNameFieldCannotHaveFirstCharacterAsBlank"/>
+          <include name="NC_17_verifyPinFieldCannotBeEmpty"/>
+          <include name="beforeClass"/>
+          <include name="NC_13_verifyStateFieldCannotBeNumeric"/>
+          <include name="NC_23_verifyTelephoneFieldCannotHaveFirstCharacterAsBlackSpace"/>
+          <include name="NC_15_verifyStateFieldCannotHaveFirstBlankSpace"/>
+          <include name="NC_03_verifyNameFieldCannotHaveSpecialCharaters"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="NC_10_verifyCityFieldCannotHaveSpecialCharaters"/>
+          <include name="NC_12_verifyStateFieldCannotBeEmpty"/>
+          <include name="NC_18_verifyPinFieldMustHaveSixDigits"/>
+          <include name="NC_21_verifyPinFieldCannotHaveBlankSpace"/>
+          <include name="NC_19_verifyPinFieldCannotHaveSpecialCharaters"/>
+          <include name="NC_16_verifyPinFieldMustBeNumeric"/>
+          <include name="NC_25_verifyTelephoneFieldCannotHaveSpecialCharacter"/>
+          <include name="NC_14_verifyStateFieldCannotHaveSpecialCharaters"/>
+          <include name="NC_01_verifyNameFieldCannotBeEmpty"/>
+          <include name="NC_09_verifyCityFieldCannotBeNumeric"/>
+          <include name="NC_11_verifyCityFieldCannotHaveFirstCharacterAsBlank"/>
+          <include name="NC_05_verifyAddressFieldCannotBeEmpty"/>
+          <include name="NC_22_verifyTelephoneFieldCannotBeEmpty"/>
+          <include name="NC_24_verifyTelephoneFieldCannotHaveSpaces"/>
+          <include name="NC_29_verifyEmailFieldCannotHaveSpace"/>
+        </methods>
+      </class> <!-- com.bankguru.customer.NewCustomer -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

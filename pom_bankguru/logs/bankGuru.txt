@@ -1,0 +1,31 @@
+[INFO ] [2021-12-04 16:49:05,550] Login - Step 02: Input to email and passwork textbox
+[INFO ] [2021-12-04 16:49:05,732] Login - Step 03: Click to login button -> Navigate to HomePage
+[INFO ] [2021-12-04 16:49:07,402] Login - Step 04: Verify 'My Account' link is displayed
+[INFO ] [2021-12-04 16:49:07,446] AccountNoFieldCannotBeEmpty - step 01: Click Delete Account link
+[INFO ] [2021-12-04 16:49:08,251] AccountNoFieldCannotBeEmpty - step 02: focus out account no textbox
+[INFO ] [2021-12-04 16:49:08,396] AccountNoFieldCannotBeEmpty - step 03: Verify message
+[INFO ] [2021-12-04 16:49:08,433]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-04 16:49:08,435] AccountNoFieldMustBeNumberic - step 01: Click Delete Account link
+[INFO ] [2021-12-04 16:49:08,862] AccountNoFieldMustBeNumberic - step 02: input to account no textbox
+[INFO ] [2021-12-04 16:49:08,943] AccountNoFieldMustBeNumberic - step 03: Verify message
+[INFO ] [2021-12-04 16:49:08,977]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-04 16:49:08,977] AccountNoFieldMustBeNumberic - step 04: input to account no textbox
+[INFO ] [2021-12-04 16:49:09,038] AccountNoFieldMustBeNumberic - step 05: Verify message
+[INFO ] [2021-12-04 16:49:09,065]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-04 16:49:09,070] AccountNoFieldCannotHaveSpecialCharater - step 01: Click Delete Account link
+[INFO ] [2021-12-04 16:49:09,504] AccountNoFieldCannotHaveSpecialCharater - step 02: input to account no textbox
+[INFO ] [2021-12-04 16:49:09,585] AccountNoFieldCannotHaveSpecialCharater - step 03: Verify message
+[INFO ] [2021-12-04 16:49:09,617]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-04 16:49:09,617] AccountNoFieldCannotHaveSpecialCharater - step 04: input to account no textbox
+[INFO ] [2021-12-04 16:49:09,681] AccountNoFieldCannotHaveSpecialCharater - step 05: Verify message
+[INFO ] [2021-12-04 16:49:09,710]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-04 16:49:09,712] AccountNoFieldCannotHaveBlankSpace - step 01: Click Delete Account link
+[INFO ] [2021-12-04 16:49:10,134] AccountNoFieldCannotHaveBlankSpace - step 02: input to account no textbox
+[INFO ] [2021-12-04 16:49:10,208] AccountNoFieldCannotHaveBlankSpace - step 03: Verify message
+[INFO ] [2021-12-04 16:49:10,238]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-04 16:49:10,241] AccountNoFieldFirstCharacerCannotHaveSpace - step 01: Click Delete Account link
+[INFO ] [2021-12-04 16:49:10,679] AccountNoFieldFirstCharacerCannotHaveSpace - step 02: input to account no textbox
+[INFO ] [2021-12-04 16:49:10,753] AccountNoFieldFirstCharacerCannotHaveSpace - step 03: Verify message
+[INFO ] [2021-12-04 16:49:10,785]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-04 16:49:10,786] OS name = windows 10
+[INFO ] [2021-12-04 16:49:10,786] Driver instance name = windows 10
