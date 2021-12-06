@@ -2217,3 +2217,4 @@
 [INFO ] [2021-12-06 10:57:45,123]  -------------------------- FAILED -------------------------- 
 [INFO ] [2021-12-06 10:57:45,125] OS name = windows 10
 [INFO ] [2021-12-06 10:57:45,125] Driver instance name = windows 10
+[INFO ] [2021-12-06 14:19:28,490] Login - Step 02: Input to email and passwork textbox
